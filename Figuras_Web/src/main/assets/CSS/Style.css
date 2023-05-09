@@ -1,0 +1,209 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: white;
+    font-family: 'Times New Roman';
+}
+.header
+{
+    background-image: url(/IMAGENES/wallpaperbetter.com_1920x1080.jpg);
+}
+.Navegacion
+{
+    width: 100%;
+    height: 45px;
+    margin: 0;
+    background-color: black;
+}
+.Navegacion ul
+{
+    list-style: none;
+}
+.Menu > li
+{
+    position:relative;
+    display: inline-block;
+}
+.submenu > li
+{
+    position: relative;
+    display: inline-block;
+}
+.Menu > li > a
+{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+.Menu > li >a:hover
+{
+    color: rgb(33, 172, 153);
+    transition: all.3s;
+    background-color: rgb(29, 32, 32);
+    
+}
+.Menu > li:hover > .submenu
+{
+    visibility: visible;
+    opacity: 1;
+}
+.submenu2 > li
+{
+    position: relative;
+    display: inline-block;
+}
+.submenu2
+{
+    position: absolute;
+    background: black;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1.5s;
+}
+.submenu2>li>a
+{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+
+}
+.submenu2 > li>a:hover
+{
+    background-color: rgb(29, 32, 32);
+    color:rgb(33, 172, 153);
+    transition: all.3s;
+}
+.Menu > li:hover > .submenu2
+{
+    visibility: visible;
+    opacity: 1;
+}
+.submenu3 > li
+{
+    position: relative;
+    display: inline-block;
+}
+.submenu3
+{
+    position: relative;
+    background: white;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1.5s;
+}
+.submenu3>li>a
+{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+.submenu3 > li>a:hover
+{
+    background-color: rgb(29, 32, 32);
+    color:rgb(33, 172, 153);
+    transition: all.3s;
+}
+.Menu > li:hover > .submenu3
+{
+    visibility: visible;
+    opacity: 1;
+}
+.submenu4 > li
+{
+    position: relative;
+    display: inline-block;
+}
+.submenu4
+{
+    position: absolute;
+    background: white;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1.5s;
+}
+.submenu4>li>a
+{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+.submenu4 > li>a:hover
+{
+    background-color: rgb(29, 32, 32);
+    color:rgb(33, 172, 153);
+    transition: all.3s;
+}
+.Menu > li:hover > .submenu4
+{
+    visibility: visible;
+    opacity: 1;
+}
+.image img
+{
+    width: 50px;
+    height: 50px;
+}
+.image2 img
+{
+    position: relative;
+    width: 160px;
+    height: 50px;
+    left: 87%;
+}
+.image3 img
+{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 35%;
+}
+section
+{
+    min-height: 100vh;
+    padding: 0%;    
+    padding-top: 0.5rem;
+}
+.inicio
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/IMAGENES//manchas-en-ondas-abstractas_2560x1440_xtrafondos.com.jpg) no-repeat;
+    background-size: cover;
+    position: center;
+}
+span
+{
+    color: rgb(27, 112, 133);
+}
+.inicio .content h3
+{
+    color: aliceblue;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inicio .content p
+{
+    color: aliceblue;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
